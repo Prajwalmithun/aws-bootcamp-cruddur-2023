@@ -10,9 +10,9 @@
 
 ### 2. Recreate Logical Architectual Diagram in Lucid Charts
 
-add image
+![Cruddur Logical Diagram](assets/7_Logical_Crudder.png)
 
-add view-only link
+[Lucid Chart Link for Logical Diagram](https://lucid.app/lucidchart/6eae65ac-1af5-4335-9e44-a79f856a8106/edit?viewport_loc=-207%2C388%2C2052%2C821%2C~Vhy7DWfR.w1&invitationId=inv_3ba14426-5d83-474a-9602-809052162773)
 
 ### 3. Create an Admin User
 - Created user called `praj-XXX-XXXX` with admin permission.
