@@ -48,4 +48,21 @@ Finally aws cli is configured successfully
 
 ### 5. Create a Billing Alarm
 
+Following screenshot from my AWS Console shows the billing alarm configured. 
+
+![Billing Alert](assets/6_Billing_Alarm.png)
+
+[Followed the steps from the documentation to create a billing alarm/alert](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/monitor_estimated_charges_with_cloudwatch.html#turning_on_billing_metrics)
+
 ### 6. Create a Budget
+Budget and notification for the budget violation are configured. Below is the command that is ran in aws cli to create budget called `AWS Bootcamp Budget` with budget limit `2 USD`, and budget notification `> 60%`
+
+```
+aws budgets create-budget \
+    --account-id 731727075972 \
+    --budget file://aws/json/budget.json \
+    --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
+```
+Screenshot of the budget from AWS Console 
+
+![Budget from AWS Console](assets/5_budget_with_notification.png)
