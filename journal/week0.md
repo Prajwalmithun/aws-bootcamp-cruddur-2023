@@ -31,12 +31,10 @@ Fixed it by running
 ```
 sudo /usr/bin/python3 awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 ```
-
-**Add screenshot here**
-
+Successfully installed `aws cli` 
+![AWS CLI installation on macOS](assets/2_AWS_CLI_install.png)
 
 [Steps followed to install the aws cli](https://docs.aws.amazon.com/cli/v1/userguide/install-macos.html#install-macosos-bundled-sudo)
-
 
 
 Steps to install it locally
