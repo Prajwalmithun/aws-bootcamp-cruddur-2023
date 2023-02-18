@@ -20,6 +20,25 @@ add view-only link
 
 ### Installed AWS CLI
 
+**On macOS** (I am installing aws cli locally as I want to try out things locally.)
+
+Ran into issue related to `python3` 
+
+Error Msg: `env: python: No such file or directory` 
+
+Fixed it by running 
+
+```
+sudo /usr/bin/python3 awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+```
+
+**Add screenshot here**
+
+
+[Steps followed to install the aws cli](https://docs.aws.amazon.com/cli/v1/userguide/install-macos.html#install-macosos-bundled-sudo)
+
+
+
 Steps to install it locally
 
 Screenshot of the aws cli command prompt
