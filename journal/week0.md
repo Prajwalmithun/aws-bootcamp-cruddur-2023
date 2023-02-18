@@ -36,10 +36,15 @@ Successfully installed `aws cli`
 
 [Steps followed to install the aws cli](https://docs.aws.amazon.com/cli/v1/userguide/install-macos.html#install-macosos-bundled-sudo)
 
+Configure aws cli to use the IAM user created in previous step
 
-Steps to install it locally
+- Created Access key (type CLI) and noted down.
+- Ran `aws configure` and followed the prompt. 
 
-Screenshot of the aws cli command prompt
+Finally aws cli is configured successfully
+
+![AWS CLI Configured and can be used by IAM user](assets/3_AWS_CLI_Configuration.png)
+
 
 ### Create a Billing Alarm
 
