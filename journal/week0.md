@@ -15,6 +15,8 @@ add image
 add view-only link
 
 ### Create an Admin User
+- Created user called `praj-XXX-XXXX` with admin permission.
+- Added MFA to this user. 
 
 ### Installed AWS CLI
 
