@@ -1,0 +1,16 @@
+Done:
+backend
+1. created Dockerfile for backend 
+2. Ran docker build and creted image 
+3. Ran container using that image 
+docker run --name backend-cont1 --rm -it -p 4568:4567 -e FRONTEND_URL="*" -e BACKEND_URL="*" backend
+
+frontend 
+1. created dockerfile 
+
+To-do 
+2. Install nmp on localsystem (to check if the frontend works in localsystem)
+3. Build docker image
+4. Create container using that image 
+5. work on Docker-compose 
+
